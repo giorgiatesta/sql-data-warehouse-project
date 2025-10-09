@@ -74,27 +74,27 @@ Implementation of **ETL processes** to:
 ---
 
 ## 🗂️ Folder Structure 
+```
 data_warehouse_project/
 │
-├── data/
-│ ├── erp_data.csv
-│ ├── crm_data.csv
-│
-├── scripts/
-│ ├── etl_bronze.sql
-│ ├── etl_silver.sql
-│ ├── etl_gold.sql
-│
-├── tests/
-│ ├── 
-│ ├── 
-│ ├── 
-│
-├── docs/
-│ ├── 
-│ ├── 
-│
-└── README.md
+├── LICENSE
+├── README.md
+├── data
+│   ├── source_crm
+│   │   ├── cust_info.csv
+│   │   ├── prd_info.csv
+│   │   └── sales_details.csv
+│   └── source_erp
+│       ├── CUST_AZ12.csv
+│       ├── LOC_A101.csv
+│       └── PX_CAT_G1V2.csv
+├── scripts
+│   ├── bronze
+│   │   └── ddl_bronze.sql
+│   └── init_database.sql
+└── tests
+    └── placeholder
+```
 
 ---
 
