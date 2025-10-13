@@ -13,7 +13,7 @@ Script Purpose:
 DROP TABLE IF EXISTS bronze.crm_cust_info;
 
 CREATE TABLE bronze.crm_cust_info (
-    cst_id INTEGER PRIMARY KEY,
+    cst_id INTEGER,
     cst_key VARCHAR(50),
     cst_firstname VARCHAR(50),
     cst_lastname VARCHAR(50),
