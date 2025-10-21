@@ -173,6 +173,7 @@ LIMIT 10;
 
 SELECT *
 FROM bronze.erp_loc_a101
+LIMIT 10;
 
 SELECT *
 FROM bronze.erp_px_cat_g1v2
